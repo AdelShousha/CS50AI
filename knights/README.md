@@ -2,7 +2,7 @@
 
 An AI solving [Knights and Knaves](https://en.wikipedia.org/wiki/Knights_and_Knaves) logic puzzles using propositional logics
 
-[Full Assignment on Harvard's website](https://cs50.harvard.edu/ai/2020/projects/1/knights)
+[Full Project on Harvard's website](https://cs50.harvard.edu/ai/2020/projects/1/knights)
 
 ## Overview
 * The project is about solving puzzles using propositional logic
