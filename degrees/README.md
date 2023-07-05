@@ -2,10 +2,10 @@
 
 A program that determines how many "degrees of separation" apart two hollywood actors are. Each degree consists of a film that two actors both starred in.
 
-[Full Assignment on Harvard's website](https://cs50.harvard.edu/ai/2020/projects/0/degrees)
+[Full Project on Harvard's website](https://cs50.harvard.edu/ai/2020/projects/0/degrees)
 
 ## Overview
-* The assignment is about finding the shortest path between two nodes
+* The Project is about finding the shortest path between two nodes
 * The database comes from IMDb, and the task is to tell how one actor is connected to another through their common movie casts
 * The solution is based on Breadth-First Search (BFS) because the task requires the shortest path between nodes
 * To implement the search, I used a Queue-based Frontier. The Frontier is filled with neighboring nodes that share the same parameter(movie)
