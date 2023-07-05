@@ -2,10 +2,10 @@
 
 An AI that uses the Minimax Algorithm to play the Tic-Tac-Toe game optimally.
 
-[Full Assignment on Harvard's website](https://cs50.harvard.edu/ai/2020/projects/0/tictactoe)
+[Full Project on Harvard's website](https://cs50.harvard.edu/ai/2020/projects/0/tictactoe)
 
 ## Overview
-* The assignment is about writing an AI algorithm to play Tic-Tac-Toe optimally
+* The Project is about writing an AI algorithm to play Tic-Tac-Toe optimally
 * The pygame module provided inside the <code>runner.py</code> file was outside the scope of the project
 * The solution is based on Minimax decision rule which perfectly works for games that clash two opponents against each other
     * The algorithm is all about calculating the best utility out of all possible solutions. 
