@@ -10,33 +10,33 @@ This course explores the concepts and algorithms at the foundation of modern art
 
 ### Week 0 — 🔎 Search
 
- - [Degrees](Degrees)
- - [Tic Tac Toe](Tic%20Tac%20Toe)
+ - [Degrees](degrees)
+ - [Tic Tac Toe](tictactoe)
 
 ### Week 1 — 🤔 Knowledge
 
- - [Knights](Knights)
- - [Minesweeper](Minesweeper)
+ - [Knights](knights)
+ - [Minesweeper](minesweeper)
 
 ### Week 2 — 🤷‍♀️ Uncertainty
 
- - [PageRank](PageRank)
- - [Heredity](Heredity)
+ - [PageRank](pagerank)
+ - [Heredity](heredity)
 
 ### Week 3 — 🏎 Optimization
 
- - [Crossword](Crossword)
+ - [Crossword](crossword)
 
 ### Week 4 — 📚 Learning
 
- - [Shopping](Shopping)
- - [Nim](Nim)
+ - [Shopping](shopping)
+ - [Nim](nim)
 
 ### Week 5 — 🧠 Neural Networks
 
- - [Traffic](Traffic)
+ - [Traffic](traffic)
 
 ### Week 6 — 🔤 Language
 
- - [Parser](Parser)
- - [Questions](Questions)
+ - [Parser](parser)
+ - [Questions](questions)
