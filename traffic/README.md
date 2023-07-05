@@ -1,4 +1,35 @@
-# Convolutional neural network model
+# Traffic
+
+An AI that uses Tensorflow to train a convolutional neural network to identify which traffic sign appears in a photograph.
+
+[Full Project on Harvard's website](https://cs50.harvard.edu/ai/2020/projects/5/traffic)
+
+## Overview
+* The Project is about using provided images to train a neural network that classifies road signs
+* The images were provided by the [German Traffic Sign Recognition Benchmark](https://benchmark.ini.rub.de/?section=gtsrb&subsection=news)
+* To read the images, we use [OpenCV-Python](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html), and to build the network, we use [Tensorflow Keras](https://www.tensorflow.org/guide/keras/sequential_model)
+* To train the network as efficiently as possible, we applied the concepts of convolutional and pooling layers
+    * A convolutional layer serves to generalize the image by using a kernel matrix to filter the image into a fewer number of pixels
+    * A pooling layer serves the same purpose but through pooling one pixel out of its neighboring pixels to bring a more general view of the image. The particular type of pooling used is Max-Pooling that takes the highest pixel out of the square
+
+## Files
+
+The dataset is too large, therefore the `data` directory only contains the links to download them. After downloading, the `data` directory should be replaced by the downloaded folder, namely "gtsrb". The `traffic.py` file contains the main functions including loading data, getting model, training the model and evaluating the model
+
+## How to Use
+
+Make sure `Tensorflow`, `opencv-python` and `scikit-learn` are installed. If not, run the following command
+
+`pip install tensorflow opencv-python scikit-learn`
+
+In the `traffic` directory, run the command
+
+`python traffic.py data model_filename`
+
+Where `data` should be either gtsrb or gtsrb-small which are downloaded through the links in the `data` directory. `Model_filename` is an optional argument that will store the trained model to the specifiled path
+
+## Example Output
+### Convolutional neural network model
 
 Firstly, I used one convolutional layer with 32 filters and (3x3) kernel, I also used (2x2) pool size max-pooling layer and one hidden layer with 128 units and 0.5 dropout. 
 
